@@ -12,3 +12,4 @@ export function TVShowListItem({ tvShow, onClick }) {
     </div>
   );
 }
+

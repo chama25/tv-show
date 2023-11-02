@@ -8,6 +8,7 @@ import logo from "./assets/images/logo.png";
 import { TVShowList } from "./components/TVShowList/TVShowList";
 import { SearchBar } from "./components/SearchBar/SearchBar";
 
+console.log(process.env.REACT_APP_API_KEY_PARAM);
 export function App() {
   const [currentTVShow, setCurrentTVShow] = useState();
   const [recommendationList, setRecommendationList] = useState([]);
@@ -70,8 +71,8 @@ export function App() {
           <div className="col-4">
             <Logo
               image={logo}
-              title="Watowatch"
-              subtitle="Find a show you may like"
+              title="Chaflix"
+              subtitle="Find a movies you may like"
             />
           </div>
           <div className="col-md-12 col-lg-4">
